@@ -41,7 +41,7 @@ Place them in DataSet/.
 
 ## Running
 
-Outputs are saved to DataSetOutput/ and processed_outputs/ for the first 2 scripts.
+Outputs are saved to DataSetOutput/ and processed_outputs/ for the first two scripts.
 
 ### Extract datasets:
 python Main/datasetExtractor.py
