@@ -6,7 +6,7 @@ This repository contains the source code and scripts used for the research paper
 ## Setup
 
 ### Clone the repository:
-git clone https://github.com/YourUser/Chess-Research-Paper.git
+git clone https://github.com/AstroAtomic/Chess-Research-Paper.git
 
 cd Chess-Research-Paper
 
