@@ -25,18 +25,23 @@ datasetExtractor.py
 
 feature_vector.py
 
-Download three monthly PGN files from Lichess Broadcasts: https://database.lichess.org/#broadcasts
+### Download three monthly PGN files from Lichess Broadcasts: 
 
-To reproduce results from the paper, use:
+https://database.lichess.org/#broadcasts
+
+### To reproduce results from the paper, use:
 
 2025-May
 
 2025-June
 
 2025-July
+
 Place them in DataSet/.
 
 ## Running
+
+Outputs are saved to DataSetOutput/ and processed_outputs/ for the first 2 scripts.
 
 ### Extract datasets:
 python Main/datasetExtractor.py
@@ -46,8 +51,6 @@ python Main/feature_vector.py
 
 ### Run experiments:
 Run scripts in the other Folders
-
-Outputs are saved to DataSetOutput/ and processed_outputs/ for the first 2 scripts.
 
 ## Citation
 
