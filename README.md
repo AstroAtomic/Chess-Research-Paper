@@ -34,7 +34,7 @@ To reproduce results from the paper, use:
 2025-July
 Place them in DataSet/.
 
-Running
+## Running
 
 ### Extract datasets:
 python Main/datasetExtractor.py
@@ -47,7 +47,7 @@ Run scripts in the other Folders
 
 Outputs are saved to DataSetOutput/ and processed_outputs/ for the first 2 scripts.
 
-##Citation
+## Citation
 
 If you use this code or dataset in your research, please cite:
 
