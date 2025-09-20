@@ -1,8 +1,63 @@
-# Chess-Research-Paper
+#Chess Research Paper – Meta-Game Analysis
 
-To run this project, download this repo and create a folder called Main
-put the tester.py datasetExtractor.py and feature_vector.py inside the Main
-Create A folder called DataSet, DataSetOutput, and processed_outputs
-in the DataSet put in three files from the lichess.org broadcasted dataset: https://database.lichess.org/#broadcasts
-You may choose any three, but to recreate the exact metrics from the research paper, choose the 2025 - July,	2025 - June,	2025 - May ones.
-Run Dataset Extractor and then feature vector, and then you can run all the other scripts!
+This repository contains the source code and scripts used for the research paper “Predicting Chess Outcomes from Meta-Game Data”. The project explores how contextual features such as rating differences, time usage, and activity statistics can be used to predict win/loss/draw outcomes using machine learning techniques.
+
+Project Structure
+
+Chess-Research-Paper/ - no need to make changes to other folders
+│── Main/ 
+│ ├── tester.py
+│ ├── datasetExtractor.py
+│ ├── feature_vector.py
+│ ├── DataSet/ # Raw Lichess datasets (user-provided)
+│ ├── DataSetOutput/ # Extracted intermediate outputs
+│ ├── processed_outputs/ # Final processed features/results
+
+Setup
+
+Clone the repository:
+git clone https://github.com/YourUser/Chess-Research-Paper.git
+
+cd Chess-Research-Paper
+
+Create folders:
+mkdir Main DataSet DataSetOutput processed_outputs
+
+Place these scripts in Main/:
+
+tester.py
+
+datasetExtractor.py
+
+feature_vector.py
+
+Download three monthly PGN files from Lichess Broadcasts: https://database.lichess.org/#broadcasts
+
+To reproduce results from the paper, use:
+
+2025-May
+
+2025-June
+
+2025-July
+Place them in DataSet/.
+
+Running
+
+Extract datasets:
+python Main/datasetExtractor.py
+
+Generate feature vectors:
+python Main/feature_vector.py
+
+Run experiments:
+Run scripts in the other Folders
+
+Outputs are saved to DataSetOutput/ and processed_outputs/ for the first 2 scripts.
+
+Citation
+
+If you use this code or dataset in your research, please cite:
+
+Nitish Joson Terance Joe Heston. Chess Research Paper Repository. GitHub, 2025.
+https://github.com/AstroAtomic/Chess-Research-Paper
