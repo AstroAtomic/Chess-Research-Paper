@@ -3,19 +3,19 @@
 This repository contains the source code and scripts used for the research paper “Predicting Chess Outcomes from Meta-Game Data”. The project explores how contextual features such as rating differences, time usage, and activity statistics can be used to predict win/loss/draw outcomes using machine learning techniques.
 
 
-Setup
+## Setup
 
-Clone the repository:
+## Clone the repository:
 git clone https://github.com/YourUser/Chess-Research-Paper.git
 
 cd Chess-Research-Paper
 
-Create folders:
+## Create folders:
 mkdir Main 
 cd Main
 mkdir DataSet DataSetOutput processed_outputs
 
-Place these scripts in Main/:
+## Place these scripts in Main/:
 
 tester.py
 
@@ -36,18 +36,18 @@ Place them in DataSet/.
 
 Running
 
-Extract datasets:
+## Extract datasets:
 python Main/datasetExtractor.py
 
-Generate feature vectors:
+## Generate feature vectors:
 python Main/feature_vector.py
 
-Run experiments:
+## Run experiments:
 Run scripts in the other Folders
 
 Outputs are saved to DataSetOutput/ and processed_outputs/ for the first 2 scripts.
 
-Citation
+##Citation
 
 If you use this code or dataset in your research, please cite:
 
