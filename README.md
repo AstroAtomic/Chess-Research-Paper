@@ -6,15 +6,17 @@ This repository contains the source code and scripts used for the research paper
 ## Setup
 
 ### Clone the repository:
+```
 git clone https://github.com/AstroAtomic/Chess-Research-Paper.git
 
 cd Chess-Research-Paper
-
+```
 ### Create folders:
+```
 mkdir Main 
 cd Main
 mkdir DataSet DataSetOutput processed_outputs
-
+```
 ### Place these scripts in Main/:
 
 tester.py
