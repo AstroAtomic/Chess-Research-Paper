@@ -2,6 +2,8 @@
 
 This repository contains the source code and scripts used for the research paper “Predicting Chess Outcomes from Meta-Game Data”. The project explores how contextual features such as rating differences, time usage, and activity statistics can be used to predict win/loss/draw outcomes using machine learning techniques.
 
+Link: https://research-archive.org/index.php/rars/preprint/view/3133/version/3289
+
 
 ## Setup
 
